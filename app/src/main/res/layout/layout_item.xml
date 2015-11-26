@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/bluetoothAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="address"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/proximityUuid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="uuid"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/major"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="major"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/minor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="minor"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/rssi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="rssi"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/txPower"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="txPower"
+        android:textSize="14dp" />
+</LinearLayout>
